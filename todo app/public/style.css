@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.todo {
+  background: #5b5bc8;
+  width: 50%;
+  margin: 4% auto;
+  padding: 15px;
+
+}
+.lists{
+  margin: 1% 0%;
+}
+.lists li{
+  background-color: rgb(198, 191, 191);
+}
+.input-box{
+  display: flex;
+}
+h2 {
+  font-size: 24px;
+  color: white;
+  padding-bottom: 13px;
+}
+input{
+  background-color: #fff;
+  width: 90%;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+    outline: none;
+    padding: 0% 2%;
+}
+button{
+  width: 10%;
+}
+/*Sign Up*/
+#signup-page{
+background-color: #212121;
+}
+.auth-form {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.auth-field{
+  display: flex;
+  flex-direction: column;
+}
+.auth-form form {
+  width: 35%;
+  border: 2px solid #b4acac;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 1px 5px 6px 9px #ffffff0a;
+}
